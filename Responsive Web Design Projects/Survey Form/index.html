@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Survey Form</title>
+    </head>
+    <main>
+        <h1 id="title">FreeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form action="submit" id="survey-form">
+            <label id="name-label" for="name">
+                <input type="text" id="name" placeholder="Name"><br>
+            </label><br>
+            <label id="email-label" for="email">
+                <input type="email" id="email" placeholder="Email"><br>
+            </label><br>
+            <label for="phone number" id="number-label">
+                <input type="number" id="number" placeholder="Phone" min="10" max="10"><br>
+            </label><br>
+            <label for="current role" id="dropdown-label">
+                <select id="dropdown">
+                    <option selected>Choose your current role</option>
+                    <option value="student">Student</option>
+                    <option value="full time job">Full Time Job</option>
+                    <option value="part time job">Part Time Job</option>
+                    <option value="Other">Other</option>
+                </select>
+            </label><br><br>
+            <fieldset>
+                <legend>Would you recommend freeCodeCamp to a friend?</legend>
+                <input id="definitely" type="radio" name="recommendation" value="definitely">
+                <label for="definitely">Definitely</label><br>
+                <input type="radio" id="maybe" name="recommendation" value="maybe">
+                <label for="maybe">Maybe</label><br>
+                <input type="radio" id="not sure" name="recommendation" value="not sure">
+                <label for="not sure">Not Sure</label>
+            </fieldset><br><br>
+            <legend>What would you like to see improved?  (Check all that apply)</legend><br>
+            <label for="front-end projects"><input id="front-end projects" type="checkbox" name="improvements">Front-end Projects</label><br>
+            <label for="back-end projects"><input id="back-end projects" type="checkbox" name="improvements">Back-end Projects</label><br>
+            <label for="data visualization"><input id="data visualization" type="checkbox" name="improvements">Data Visualization</label><br>
+            <label for="challenges"><input id="challenges" type="checkbox" name="improvements">Challenges</label><br>
+            <label for="open source community"><input id="open source community" type="checkbox" name="improvements">Open Source Community</label><br>
+            <label for="gitter help rooms"><input id="gitter help rooms" type="checkbox" name="improvements">Gitter help rooms</label><br>
+            <label for="videos"><input id="videos" type="checkbox" name="improvements">Videos</label><br>
+            <label for="city meetups"><input id="city meetups" type="checkbox" name="improvements">City Meetups</label><br>
+            <label for="wiki"><input id="wiki" type="checkbox" name="improvements">Wiki</label><br>
+            <label for="forum"><input id="forum" type="checkbox" name="improvements">Forum</label><br>
+            <label for="additional courses"><input id="additional courses" type="checkbox" name="improvements">Additional Courses</label><br><br>
+            <legend>Any comments or suggestions?</legend>
+            <input type="text" id="comments" placeholder="Enter your comments here..."><br><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+</html>
