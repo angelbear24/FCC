@@ -1,0 +1,9 @@
+html {
+    background-image: url('web-dev-image.png');
+}
+
+main {
+    background-color: hsl(blue, 100%, 50%);
+    color: white;
+    text-align: center;
+}
