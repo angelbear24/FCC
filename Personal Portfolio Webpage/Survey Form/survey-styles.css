@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+    background-image: url("web-dev-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: larger;
+}
+
+div {
+    background-color: rgba(100,149,237,.8);
+}
+
+#comment {
+    text-align: center;
+}
+
+#submit {
+    background-color: rgba(37, 214, 37, 0.712);
+    color: white;
+    width: 80%;
+    height: 50px;
+    font-size: larger;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+}
+
+input, #dropdown, fieldset {
+    font-size: larger;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1, p {
+    text-align: center;
+}
